@@ -29,11 +29,25 @@ void combi(int start,vector<int> b)
 }
 
 
+void combiByfor() {
+
+    for(int i =0; i<n; i++)
+    {
+        for(int j = i + 1; j<n; j++)
+        {
+            cout << i << " " << j << "\n";
+        }
+    }
+   
+
+}
+
 
 
 
 int main() {
     vector<int> b;
+    combiByfor();
     combi(-1,b);
 
 

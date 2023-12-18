@@ -8,6 +8,7 @@
     "iostream": "cpp",
     "string": "cpp",
     "filesystem": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "random": "cpp"
   }
 }
