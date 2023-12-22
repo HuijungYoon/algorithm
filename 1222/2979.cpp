@@ -8,10 +8,14 @@ int sum =0;
 
 int main() {
     cin >> A >> B >> C;
+
     for(int i=0; i<3; i++)
-    {
+{
         cin >> a >> b;
-        for(int i =A; i<B; i++)
+    
+
+        
+        for(int i =a; i<b; i++)
         {
             arr[i] = i;
             if(arr[i]) cnt[i] ++;
@@ -21,14 +25,15 @@ int main() {
     for(int i=0; i<100; i++){
         
         if(cnt[i] == 1){
-            sum += 1*arr[i];
+            sum += (1 * A);
         }
         else if(cnt[i] == 2){
-            sum += 2*arr[i];
+            sum += (2 * B);
         }
-        else {
-            sum += 3*arr[i];
-        }
+        else if(cnt[i] ==3) {
+            sum += (3 * C);
+        } 
     }
+     cout << sum << "\n";
 return 0;
 }
