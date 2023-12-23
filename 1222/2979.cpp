@@ -10,11 +10,9 @@ int main() {
     cin >> A >> B >> C;
 
     for(int i=0; i<3; i++)
-{
+     {
         cin >> a >> b;
-    
 
-        
         for(int i =a; i<b; i++)
         {
             arr[i] = i;
