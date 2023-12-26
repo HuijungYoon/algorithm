@@ -16,8 +16,11 @@ for(int i=1; i<=n; i++)
 for(int i=k; i<=n; i++)
 {
     ret = max(ret,psum[i] - psum[i - k]);
+    cout << "ret" << ret << "\n";
+    cout << "psum[i]" << psum[i] << "\n";
+    cout << "psum[i-k]" << k << psum[i-k] << "\n";
 }
-cout << ret;
+//cout << ret;
 
 
 
