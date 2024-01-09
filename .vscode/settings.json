@@ -29,6 +29,7 @@
     "regex": "cpp",
     "sstream": "cpp",
     "string_view": "cpp",
-    "valarray": "cpp"
+    "valarray": "cpp",
+    "__debug": "cpp"
   }
 }
