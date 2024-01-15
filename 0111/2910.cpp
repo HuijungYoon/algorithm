@@ -17,10 +17,8 @@ int main() {
     for(int i=0; i<n; i++){
         cin >> a[i]; mp[a[i]]++;
         if(mp_first[a[i]] == 0) mp_first[a[i]] = i + 1;
-        cout << mp_first[a[i]] << " "; 
         
     }
-cout << "\n";
     for(auto it : mp){
         v.push_back({it.second,it.first});
     }
