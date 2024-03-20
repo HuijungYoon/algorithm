@@ -26,7 +26,7 @@ int main() {
     if(root == r) {
         cout << 0 << "\n"; return 0;
     }
-    cout <<dfs(root) << "\n";
+    cout <<dfs(root) << "\n"
 
 
     return 0;
