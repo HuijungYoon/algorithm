@@ -31,7 +31,8 @@
     "string_view": "cpp",
     "valarray": "cpp",
     "__debug": "cpp",
-    "stack": "cpp"
+    "stack": "cpp",
+    "complex": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
